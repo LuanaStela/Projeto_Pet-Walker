@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pet Walker</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -14,6 +14,7 @@
     <div class="header">
       <nav>
         <ul class="header-menu">
+          <li>Home</li>
           <li>Sobre mim</li>
           <li>Serviços</li>
           <li>Contato</li>
@@ -22,11 +23,16 @@
     </div>
   </header>
 
+  <div class="hero">
+    <h2>Passeios Felizes para seu Melhor Amigo</h2>
+  </div>
+
   <main class="introducao-bg">
     <div class="introducao">
       <div class="introducao-conteudo">
         <h1>Uma caminhada saudável para seu melhor amigo 🐾</h1>
         <p>Levar seu pet para passear é super importante para a saúde dele!</p>
+        <button>Saiba mais</button>
       </div>
       <img src="./img/cachorro com coleira.jpg" alt="">
     </div>
@@ -48,6 +54,11 @@
     </div>
   </article>
 
+  <section id="about" class="section">
+    <h2>Sobre Nós</h2>
+    <p>Nossa história...</p>
+  </section>
+
   <article class="definicao-bg">
     <div class="definicao">
       <div>
@@ -55,9 +66,26 @@
         <p class="definicao-conteudo">
           Um "pet walker" é alguém que é contratado para passear com os animais de estimação, como cachorros, durante o dia. Eles geralmente seguem uma programação regular de caminhadas com os cães de seus clientes, garantindo que recebam exercício, socialização e estímulos mentais adequados enquanto seus donos estão ocupados ou ausentes.</p>
       </div>
-      <img src="./img/pet-walker.jpg" alt="">
+      <img class="imagem-dog" src="./img/pet-walker.jpg" alt="">
+      <img class="imagem-gato" src="./img/gatinho-coleira.jpg" alt="">
     </div>
   </article>
+
+  <section id="services" class="section">
+    <h2>Serviços</h2>
+    <p>Passeios Diários...</p>
+  </section>
+
+
+  <section id="contact" class="section contact-form">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" name="name" placeholder="Nome">
+      <input type="email" name="email" placeholder="Email">
+      <textarea name="message" placeholder="Mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 
   <!-- <footer class="footer-bg">
     <div class="footer">

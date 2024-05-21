@@ -1,0 +1,29 @@
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-bg{
+  background: #f4f4f4;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu li {
+  display: inline-block;
+  padding: 10px 10px;
+  color: #fff;
+  background: #7e2d7e;
+  border-radius: 5px;
+}
