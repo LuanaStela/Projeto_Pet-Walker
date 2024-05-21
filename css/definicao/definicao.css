@@ -1,0 +1,37 @@
+
+.definicao-bg {
+  background: #e0bcdd;
+  color: #000;
+}
+
+.definicao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0 20px 0 20px;
+}
+
+.definicao h1 {
+  margin-bottom: 40px;
+  font-size: 50px;
+  line-height: 65px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.definicao p {
+  align-self: center;
+  text-align: right;
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.definicao img {
+  padding: 20px 0px ;
+  width: 400px;
+  padding-left: 100px;
+  align-self: center;
+}
