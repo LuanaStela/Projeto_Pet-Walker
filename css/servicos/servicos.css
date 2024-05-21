@@ -1,4 +1,4 @@
-.importancia-bg {
+/* .importancia-bg {
   background: #fff;
   color: #000;
 }
@@ -11,21 +11,7 @@
   padding: 0 20px 0 20px;
 }
 
-.texto-1 {
-  padding: 20px;
-  text-align: left;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.texto-2 {
-  padding: 20px;
-  text-align: left;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.texto-3 {
+.texto {
   padding: 20px;
   text-align: left;
   font-size: 20px;
@@ -42,4 +28,4 @@
   position: absolute;
   padding: 20px 50px;
   width: 300px;
-}
+} */

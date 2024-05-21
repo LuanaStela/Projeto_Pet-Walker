@@ -1,17 +1,12 @@
-.introducao-bg {
-  color: #000;
-}
-
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   box-sizing: border-box;
   max-width: 1200px;
-  padding: 0 20px 0 20px;
 }
 
-.introducao-conteudo {
+/* .introducao-conteudo {
   align-self: center;
 }
 
@@ -36,10 +31,8 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 1;
-}
+} */
 
 .introducao img {
-  padding: 20px 0px;
-  padding-left: 100px;
   width: 400px;
 }

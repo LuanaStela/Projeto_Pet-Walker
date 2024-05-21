@@ -1,9 +1,12 @@
 body {
   margin: 0px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Vollkorn', Georgia, serif
+  /* background: url('../../img/Ultra-Voilet.jpg'); */
 }
 
 h1,
+h2,
+h3,
 ul,
 p {
   margin: 0px;
@@ -14,8 +17,14 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 img {
   max-width: 100%;
   display: block;
-  border-radius: 4px;
+  height: auto;
+  border-radius: 10px;
 }

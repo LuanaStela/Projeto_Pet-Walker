@@ -3,22 +3,5 @@
 @import "./home/introducao.css";
 @import "./servicos/servicos.css";
 @import "./definicao/definicao.css";
-
-
-.hero {
-  background: url('../img/dogs-brincando-cortada.jpg') no-repeat center center/cover;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-}
-.section {
-  padding: 20px;
-  text-align: center;
-}
-.section img {
-  width: 100px;
-  border-radius: 50%;
-}
+@import "./utilidades/componentes.css";
+@import "./home/topo.css"
