@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: 'Vollkorn', Georgia, serif
+  font-family: 'Vollkorn', Georgia, serif;
   /* background: url('../../img/Ultra-Voilet.jpg'); */
 }
 
@@ -24,7 +24,7 @@ a {
 
 img {
   max-width: 100%;
-  display: block;
   height: auto;
   border-radius: 10px;
+  margin: 0px;
 }

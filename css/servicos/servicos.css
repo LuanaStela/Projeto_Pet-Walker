@@ -1,31 +1,21 @@
-/* .importancia-bg {
-  background: #fff;
-  color: #000;
-}
-
 .importancia {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   box-sizing: border-box;
   max-width: 1200px;
-  padding: 0 20px 0 20px;
+  padding: 30px;
+  gap: 40px;
 }
 
-.texto {
-  padding: 20px;
-  text-align: left;
+.texto-1 {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
+  text-align: right;
 }
 
-.importancia-imagem {
-  padding: 50px 20px;
-  width: 300px;
+.texto-2 {
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
 }
-
-.importancia-imagem-2 {
-  grid-column: 1;
-  position: absolute;
-  padding: 20px 50px;
-  width: 300px;
-} */
