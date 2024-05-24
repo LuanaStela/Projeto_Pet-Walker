@@ -14,10 +14,18 @@
     <div class="header container">
       <nav>
         <ul class="header-menu">
-          <li><a href="#home"></a>Home</li>
-          <li><a href="#sobremim"></a>Sobre mim</li>
-          <li><a href="#servicos"></a>Serviços</li>
-          <li><a href="#contato"></a> Contato</li>
+          <li>
+            <a href="#home"></a>Home
+          </li>
+          <li>
+            <a href="#sobremim"></a>Sobre mim
+          </li>
+          <li>
+            <a href="#servicos"></a>Serviços
+          </li>
+          <li>
+            <a href="#contato"></a> Contato
+          </li>
         </ul>
       </nav>
     </div>
@@ -47,19 +55,25 @@
   </div>
 
   <section class="icones container">
-
+    <h1 class="icones-titulo">Serviços</h1>
     <ul>
       <li>
-        <img src="./img/icones/walk-the-pet.svg" alt="">
-        <h3>Pet Walker</h3>
+        <a href="#">
+          <img src="./img/icones/walk-the-pet.svg" alt="">
+          <h3>Pet Walker</h3>
+        </a>
       </li>
       <li>
-        <img src="./img/icones/pet-house.svg" alt="">
-        <h3>Hospedagem Pet</h3>
+        <a href="#">
+          <img src="./img/icones/pet-house.svg" alt="">
+          <h3>Hospedagem Pet</h3>
+        </a>
       </li>
       <li>
-        <img src="./img/icones/black-cat.svg" alt="">
-        <h3>Pet Sitter</h3>
+        <a href="#">
+          <img src="./img/icones/black-cat.svg" alt="">
+          <h3>Pet Sitter</h3>
+        </a>
       </li>
     </ul>
   </section>
@@ -81,7 +95,7 @@
   <section class="sobre-mim container">
     <h2>Sobre mim</h2>
     <p>Olá, meu nome é Luana Stela, tenho 26 anos e sou de Uberlândia, Minas Gerais. Sou formada em Geografia e estou me preparando para me tornar uma Desenvolvedora Web. Moro com minha namorada e, juntas, compartilhamos uma vida cheia de amor e companheirismo. Tenho uma grande paixão por ler, estudar e cuidar da nossa casa e das nossas plantinhas.</p>
-    <p>Infelizmente, ainda não temos condições de ter um pet em casa, mas isso não diminui meu amor pelos animais. Durante minha infância e adolescência, tive a alegria de conviver com muitos bichinhos de estimação, e amava cada um deles profundamente. Quando o último dos nossos pets faleceu, minha mãe decidiu não ter mais animais de estimação devido à dor da perda, e desde então, só posso aproveitar a companhia dos pets dos meus amigos quando os visito</p>
+    <p>Infelizmente, ainda não temos condições de ter um pet em casa, mas isso não diminui meu amor pelos animais. Durante minha infância e adolescência, tive a alegria de conviver com muitos bichinhos de estimação, e amava cada um deles profundamente. Quando o último dos nossos pets faleceu, minha mãe decidiu não ter mais animais de estimação devido à dor da perda, e desde então, só posso aproveitar a companhia dos pets dos meus amigos quando os visito.</p>
     <p>Este projeto representa uma oportunidade maravilhosa para mim. Além de me permitir voltar a ter contato com pets, algo que sinto muita falta, ele também me oferece a chance de gerar uma renda extra, o que é muito importante para o meu desenvolvimento profissional e pessoal. Estou ansiosa para começar essa nova jornada e contribuir com todo meu carinho e dedicação aos bichinhos que cuidarei.</p>
     <img src="./img/sobre-mim.jpeg" alt="Sobre mim">
   </section>
@@ -94,14 +108,25 @@
           Um "pet walker" é alguém que é contratado para passear com os animais de estimação, como cachorros, durante o dia. Eles geralmente seguem uma programação regular de caminhadas com os cães de seus clientes, garantindo que recebam exercício, socialização e estímulos mentais adequados enquanto seus donos estão ocupados ou ausentes.</p>
       </div>
       <img class="imagem-dog" src="./img/pet-walker.jpg" alt="">
-      <!-- <img class="imagem-gato" src="./img/gatinho-coleira.jpg" alt=""> -->
+
+      <div>
+        <h1>Hospedagem Pet</h1>
+        <p class="definicao-conteudo">
+          A hospedagem pet é como um hotel para cachorros, gatos e outras espécies, só que melhor! Seu pet recebe cuidado profissional dos nossos Anjos Parceiros treinados, que oferecem hospedagem com atenção personalizada em um ambiente familiar. Essa abordagem garante que seu pet se sinta confortável e seguro, recebendo carinho e cuidados especiais, como se estivesse em casa. Com a hospedagem pet, você pode viajar tranquilo, sabendo que seu amigo está em boas mãos e recebendo todo o amor e atenção que merece.</p>
+      </div>
+      <img class="imagem-dog" src="./img/pet-walker.jpg" alt="">
+
+      <div>
+        <h1>O que faz um pet sitter?</h1>
+        <p class="definicao-conteudo">
+
+          As visitas de Pet Sitter duram uma hora, mas você pode contratar mais horas se desejar. Os Pet Sitters são profissionais qualificados pela Pet Anjo e oferecem um serviço personalizado na sua casa. O valor por hora é definido pelo próprio Pet Sitter.
+
+          Durante a visita, o Pet Sitter trocará a água, limpará os potes, alimentará, brincará, dará carinho, limpará xixi e coco, e trocará a areia do gato, entre outras tarefas. O preço é o mesmo para até três pets.</p>
+      </div>
+      <img class="imagem-dog" src="./img/pet-walker.jpg" alt="">
     </div>
   </article>
-
-  <section id="services" class="section">
-    <h2>Serviços</h2>
-    <p>Passeios Diários...</p>
-  </section>
 
   <!-- <section id="contact" class="section contact-form">
     <h2>Contato</h2>
@@ -113,8 +138,8 @@
     </form>
   </section> -->
 
-  <!-- <footer class="footer-bg">
-    <div class="footer">
+  <footer class="footer-bg">
+    <div class="footer container">
       <div>
         <h3>Contato</h3>
         <ul>
@@ -125,7 +150,7 @@
       </div>
       <p>Pet Walker © Alguns direitos reservados.</p>
     </div>
-  </footer> -->
+  </footer>
 
 </body>
 
