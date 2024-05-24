@@ -1,0 +1,20 @@
+.icones {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.icones h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.icones img {
+  max-width: 200px;
+}
+
+.icones ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}

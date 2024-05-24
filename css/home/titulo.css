@@ -1,0 +1,35 @@
+.titulo {
+  display: block;
+  gap: 40px;
+  padding: 30px;
+  align-self: center;
+  text-align: center;
+}
+
+.titulo h1 {
+  font-size: 48px;
+  line-height: 55px;
+}
+
+.titulo-conteudo p {
+  font-size: 30px;
+  line-height: 35px;
+  padding: 20px;
+}
+
+.titulo button {
+  padding: 10px;
+  color: #fff;
+  font-size: 1.125em;
+  border-radius: 5px;
+  transition: 0.1s;
+  background: #b07dfb;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+
+.titulo button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}

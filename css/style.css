@@ -1,7 +1,10 @@
-@import "./global/global.css";
-@import "./global/header.css";
-@import "./home/introducao.css";
-@import "./servicos/servicos.css";
-@import "./definicao/definicao.css";
-@import "./utilidades/componentes.css";
-@import "./home/topo.css"
+@import './global/global.css';
+@import './global/header.css';
+@import './home/introducao.css';
+@import './home/topo.css';
+@import './home/titulo.css';
+@import './home/importancia.css';
+@import './home/sobre-mim.css';
+@import './home/definicao.css';
+@import './home/icones.css';
+@import './utilidades/componentes.css';

@@ -1,0 +1,26 @@
+.sobre-mim {
+  display: grid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #8844ee;
+}
+
+.sobre-mim h2 {
+  font-size: 40px;
+  border-bottom: 2px solid #8844ee;
+}
+
+.sobre-mim p {
+  font-size: 18px;
+  line-height: 23px;
+  grid-column: 1;
+  padding-top: 20px;
+}
+
+.sobre-mim img {
+  width: 300px;
+  grid-row: 1 / 5;
+  grid-column: 2;
+  border-radius: 50%;
+  align-items: center;
+}
