@@ -1,3 +1,23 @@
+.titulo {
+  display: block;
+  gap: 40px;
+  padding: 30px;
+  align-self: center;
+  text-align: center;
+}
+
+.titulo h1 {
+  font-size: 48px;
+  line-height: 55px;
+}
+
+.titulo,
+.titulo-conteudo p {
+  font-size: 30px;
+  line-height: 35px;
+  padding: 20px;
+}
+
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -5,26 +25,7 @@
   padding: 30px;
 }
 
-.introducao-conteudo {
-  align-self: center;
-  grid-column: 1 / -1;
-  text-align: center;
-}
-
-.introducao h1 {
-  margin-bottom: 40px;
-  font-size: 50px;
-  line-height: 55px;
-}
-
-.introducao,
-.introducao-conteudo p {
-  font-size: 30px;
-  line-height: 35px;
-  padding-bottom: 20px;
-}
-
-.introducao button {
+.titulo button {
   padding: 10px;
   color: #fff;
   font-size: 1.125em;
@@ -37,27 +38,28 @@
   border: none;
 }
 
-.introducao button:hover {
+.titulo button:hover {
   background: rgba(0, 0, 0, 0.5);
 }
 
 .intro-dog {
   width: auto;
+  grid-row: 1 / 4;
 }
 
 .texto {
   font-size: 20px;
   line-height: 25px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  border-top: 2px solid #8844ee;
 }
 
 .frase-importancia {
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
   background: linear-gradient(135deg, #8844ee, #b07dfb);
   border-radius: 5px;
-  padding: 25px;
+  padding: 18px;
   grid-column: 2;
   grid-row: 3;
 }

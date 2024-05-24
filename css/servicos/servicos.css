@@ -11,11 +11,15 @@
   font-size: 20px;
   line-height: 25px;
   text-align: right;
+  border-bottom: 2px solid #8844ee;
+  padding-bottom: 15px;
 }
 
 .texto-2 {
-  padding-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 20px;
   line-height: 25px;
   text-align: left;
+  border-bottom: 2px solid #8844ee;
 }
