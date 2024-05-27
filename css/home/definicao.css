@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  box-sizing: border-box;
   padding: 40px;
 }
 
@@ -14,13 +13,27 @@
 }
 
 .definicao p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   text-align: left;
   border-bottom: 2px solid #8844ee;
   padding-bottom: 15px;
 }
 
-.definicao img {
-  width: auto;
+.carinho-gato {
+  grid-column: 1;
+  grid-row: 2/3;
 }
+
+.hospedagem-pet {
+  grid-column: 2;
+}
+
+.imagem-dog {
+  width: 500px;
+  justify-self: center;
+}
+
+.pet-walker p, .pet-sitter p {
+  text-align: right;
+} 
