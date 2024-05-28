@@ -1,31 +1,48 @@
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   flex-wrap: wrap;
-  padding: 20px;
-  justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
 }
 
-.header-bg {
-  background: linear-gradient(135deg, #8844ee, #b07dfb);
+nav {
+  grid-column: 1;
+  grid-row: 1;
+}
+.header ul {
+  display: inline-block;
+  position: relative;
 }
 
-.header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+.header li {
+  padding: 10px;  
+}
+
+.header a,
+img {
+  grid-column: 2;
+  width: 250px;
+  justify-self: center;
 }
 
 .header-menu li {
-  display: inline-block;
   padding: 10px;
-  color: white;
+  color: #000;
   font-size: 1.125em;
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  transition: 0.1s;
 }
 
-.header-menu li:hover {
-  background: rgba(0, 0, 0, 0.5);
+.header-menu li:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #000;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu li:hover:after {
+  width: 100%;
 }
