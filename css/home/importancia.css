@@ -5,6 +5,14 @@
   gap: 40px;
 }
 
+.importancia-cat {
+  grid-column: 1;
+}
+
+.importancia-dog {
+  grid-column: 3;
+}
+
 .texto-1 {
   font-size: 18px;
   line-height: 23px;
@@ -23,5 +31,10 @@
 }
 
 .importancia img {
+  width: 100%;
   align-self: center;
+}
+
+.importancia button {
+  grid-column: 2;
 }
