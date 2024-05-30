@@ -1,13 +1,13 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
   padding-top: 80px;
   padding-bottom: 40px;
 }
 
 .footer img {
   width: 200px;
+  grid-column: 1;
 }
 
 .footer h3 {
@@ -17,9 +17,11 @@
 
 .footer li {
   margin-bottom: 14px;
+  font-size: 1.125rem;
 }
 
 .footer p {
   grid-column: 1 / -1;
   margin: 20px 0px;
+  font-size: 1.125rem;
 }

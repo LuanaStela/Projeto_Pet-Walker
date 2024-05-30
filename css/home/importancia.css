@@ -3,6 +3,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 20px 10px;
   gap: 40px;
+  align-self: center;
+  text-align: center;
 }
 
 .importancia-cat {
@@ -11,12 +13,13 @@
 
 .importancia-dog {
   grid-column: 3;
+  grid-row: 1 / 2;
 }
 
 .texto-1 {
   font-size: 18px;
   line-height: 23px;
-  text-align: right;
+  text-align: center;
   border-bottom: 2px solid #8844ee;
   padding-bottom: 15px;
 }
@@ -24,7 +27,7 @@
 .texto-2 {
   font-size: 18px;
   line-height: 23px;
-  text-align: left;
+  text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 2px solid #8844ee;
@@ -36,5 +39,6 @@
 }
 
 .importancia button {
-  grid-column: 2;
+  margin-top: 70px;
+  cursor: pointer;
 }

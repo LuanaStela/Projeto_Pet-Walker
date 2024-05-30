@@ -23,15 +23,17 @@
 .carinho-gato {
   grid-column: 1;
   grid-row: 2/3;
+  width: 100%;
+  align-self: center;
 }
 
 .hospedagem-pet {
   grid-column: 2;
 }
 
-.imagem-dog {
+.imagem-dog, .cao-racao {
   width: 500px;
-  justify-self: center;
+  align-self: center;
 }
 
 .pet-walker p, .pet-sitter p {
