@@ -25,6 +25,8 @@
   grid-row: 2/3;
   width: 100%;
   align-self: center;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+
 }
 
 .hospedagem-pet {
@@ -34,6 +36,8 @@
 .imagem-dog, .cao-racao {
   width: 500px;
   align-self: center;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+
 }
 
 .pet-walker p, .pet-sitter p {

@@ -9,11 +9,15 @@
 
 .importancia-cat {
   grid-column: 1;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+
 }
 
 .importancia-dog {
   grid-column: 3;
   grid-row: 1 / 2;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+
 }
 
 .texto-1 {
@@ -41,4 +45,9 @@
 .importancia button {
   margin-top: 70px;
   cursor: pointer;
+  background: #654ea3;
+}
+
+.importancia button:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
