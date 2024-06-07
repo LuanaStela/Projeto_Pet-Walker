@@ -36,3 +36,13 @@
 .header img {
   width: 280px;
 }
+
+@media (max-width: 1200px) {
+  .header-menu {
+    display: flex;
+  }
+  .header img {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+}

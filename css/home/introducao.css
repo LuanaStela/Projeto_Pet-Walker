@@ -45,7 +45,6 @@
   justify-self: center;
   align-self: center;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
-
 }
 
 .cat {
@@ -54,5 +53,28 @@
   justify-self: center;
   align-self: end;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+}
 
+@media (max-width: 1200px) {
+  .introducao{ 
+    padding: 0px;
+  }
+  .titulo h1 {
+    font-size: 25px;
+    line-height: 28px;
+    padding-bottom: 10px;
+  }
+  .titulo p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .titulo button {
+    margin-bottom: 15px;
+  }
+  .dog {
+    width: 300px;;
+  }
+  .cat {
+    width: 300px;
+  }
 }
