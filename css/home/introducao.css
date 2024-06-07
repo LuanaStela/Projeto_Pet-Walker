@@ -54,7 +54,7 @@
   align-self: end;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
 }
-
+/* 
 @media (max-width: 1200px) {
   .introducao{ 
     padding: 0px;
@@ -77,4 +77,4 @@
   .cat {
     width: 300px;
   }
-}
+} */

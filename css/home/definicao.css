@@ -26,20 +26,33 @@
   width: 100%;
   align-self: center;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
-
 }
 
-.hospedagem-pet {
+.imagem-dog,
+.cao-racao {
   grid-column: 2;
-}
-
-.imagem-dog, .cao-racao {
   width: 500px;
-  align-self: center;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
-
 }
 
-.pet-walker p, .pet-sitter p {
+.pet-walker p,
+.pet-sitter p {
   text-align: right;
-} 
+}
+
+/* Media queries para layout responsivo */
+@media (max-width: 1024px) {
+  .definicao {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+  }
+  .definicao h1 {
+    margin: 0px;
+    padding: 10px 0px 15px 0px;
+  }
+  .definicao p {
+    text-align: center;
+    border: none;
+  }
+}

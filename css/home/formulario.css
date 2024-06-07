@@ -54,3 +54,11 @@
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
 }
+
+@media (max-width: 1024px) {
+  .dados-form label,
+  .dados-form input,
+  .dados-form textarea {
+    box-sizing: border-box;
+  }
+}
