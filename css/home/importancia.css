@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 20px 10px;
   gap: 40px;
+  place-items: center;
   align-self: center;
   text-align: center;
 }
@@ -20,21 +21,12 @@
 
 }
 
-.texto-1 {
+.texto-1, .texto-2 {
   font-size: 18px;
   line-height: 23px;
   text-align: center;
   border-bottom: 2px solid #000;
   padding-bottom: 15px;
-}
-
-.texto-2 {
-  font-size: 18px;
-  line-height: 23px;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-bottom: 2px solid #000;
 }
 
 .importancia img {
@@ -43,11 +35,35 @@
 }
 
 .importancia button {
-  margin-top: 70px;
+  margin-top: 40px;
   cursor: pointer;
   background: #654ea3;
 }
 
 .importancia button:hover {
   background: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1024px) {
+  .importancia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px;
+  }
+  .importancia-dog {
+    grid-column: 2;
+  }
+  .importancia-cat,
+  .importancia-dog {
+    max-width: 180px;
+    justify-self: center;
+  }
+  .textos {
+   grid-column: span 2;
+   padding-top: 15px;
+  }
+  .importancia button {
+    margin-top: 20px;
+  }
 }

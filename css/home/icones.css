@@ -19,7 +19,7 @@
   width: 150px;
 }
 
-.icones ul {
+.conteudo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -37,4 +37,11 @@
 
 .icones li a:hover {
   background: #eaafc8;
+}
+
+@media (max-width: 1024px) {
+  .conteudo {
+    gap: 20px;
+    width: 20px;
+  }
 }
