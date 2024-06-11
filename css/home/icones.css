@@ -42,6 +42,19 @@
 @media (max-width: 1024px) {
   .conteudo {
     gap: 20px;
-    width: 20px;
+  }
+  .icones {
+    padding: 15px;
+  }
+  .icones a {
+    width: 50px;
+    margin: 10px;
+  }
+  .icones h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
   }
 }
