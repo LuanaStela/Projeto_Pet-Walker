@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 20px 10px;
+  margin-bottom: 50px;
   gap: 40px;
   place-items: center;
   align-self: center;
